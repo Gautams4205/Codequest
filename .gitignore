@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+.bower_components/
+
+# Build output
+dist/
+build/
+
+# Optional npm cache directory
+.npm/
+
+# Optional eslint cache
+.eslintcache
+
+# Environment variables
+.env
+
+# MacOS files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Temporary files
+*.tmp
+*.temp
+
+# Debugging logs
+*.log
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# Coverage reports
+coverage/

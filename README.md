@@ -16,5 +16,43 @@ built with the MERN stack. It offers a question-and-answer platform where develo
 
 [Live Demo](https://codequest-sigma.vercel.app/)
 
-![](https://github.com/Gautams4205/Mern-Chat-App/blob/main/screenshots/group%20%2B%20notif.PNG)
 ## Run Locally
+Clone the project
+
+```bash
+  git clone https://github.com/Gautams4205/Codequest
+```
+
+Go to the project directory
+
+```bash
+  cd Codequest
+```
+
+Install dependencies in client
+
+```bash
+  cd client/
+  npm install
+```
+
+Install dependencies in server
+
+```bash
+  cd ../
+  cd server/
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+Start the Client
+
+```bash
+  //open now terminal
+  cd frontend
+  npm start
+```

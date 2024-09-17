@@ -6,7 +6,7 @@ built with the MERN stack. It offers a question-and-answer platform where develo
 
 **Client:** React JS, Redux
 
-**Server:** Node JS, Express JS
+**Server:** Node JS, Express JS, JWT, BcryptJS
 
 **Database:** Mongo DB
 
@@ -33,6 +33,8 @@ Install dependencies in client
 
 ```bash
   cd client/
+```
+```bash
   npm install
 ```
 
@@ -40,19 +42,29 @@ Install dependencies in server
 
 ```bash
   cd ../
+```
+```bash
   cd server/
+```
+```bash
   npm install
 ```
 
-Start the server
+Also add env file your own having these parameters(JWT_SECRET,MONGODB_URL,PORT)
+
+Start the server 
 
 ```bash
   npm run start
 ```
+
 Start the Client
 
 ```bash
-  //open now terminal
-  cd frontend
+  //open new terminal
+  cd client
+```
+
+```bash
   npm start
 ```

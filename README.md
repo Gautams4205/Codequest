@@ -52,6 +52,8 @@ Install dependencies in server
 
 Also add env file your own having these parameters(JWT_SECRET,MONGODB_URL,PORT)
 
+## Then:-
+
 Start the server 
 
 ```bash
